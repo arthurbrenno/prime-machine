@@ -1,3 +1,5 @@
+*/.vs
+
 # Prerequisites
 *.d
 
@@ -30,3 +32,4 @@
 *.exe
 *.out
 *.app
+/.vs/Sieve of Eratosthenes
