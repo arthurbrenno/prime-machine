@@ -17,7 +17,7 @@ Here're some of the project's best features:
 *   Sieve of Eratosthenes
 *   Bitset
 *   Memory efficient booleans
-<br>
+
 <h2>🛡️ License:</h2>
 
 This project is licensed under the MIT Licence
