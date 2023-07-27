@@ -26,7 +26,7 @@ void sieve_bool(size_t n) {
         composite_vec[i] = true;
     }
     const auto sqrtn = static_cast<size_t>(std::sqrt(n));
-    for (size_t i {3}; i < sqrtn; ++i) {
+    for (size_t i {3}; i < sqrtn; i += 2) {
         if (!composite_vec[i]) {
             for (size_t j { i * i }; j < n; j += i << 1) {
                 composite_vec[i] = true;
@@ -38,11 +38,13 @@ void sieve_bool(size_t n) {
 void sieve_char(size_t n) {
     char* composite_list = (char*) malloc(n);
     memset(composite_list, 0, n);
+    composite[0] = 1;
+    composite[1] = 1;
     for (size_t i {4}; i < n; i += 2) {
         composite_list[i] = 1;
     }
-    auto sqrtn = static_cast<size_t>(std::sqrt(n));
-    for (size_t i {3}; i < sqrtn; ++i) {
+    const auto sqrtn = static_cast<size_t>(std::sqrt(n));
+    for (size_t i {3}; i < sqrtn; i += 2) {
         if (!composite_list[i]) {
             for (size_t j { i * i }; j < n; j += i << 1) {
                 composite_list[j] = 1;
