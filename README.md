@@ -14,7 +14,7 @@
 Here're some of the project's best features:
 
 *   Segmented Sieve of Eratosthenes
-*   Memory efficient booleans (std::vector<bool>)
+*   Memory efficient booleans (std::vector<bool>, not bitset)
 *   C-style algorithm
 
 <h2>🛡️ License:</h2>
