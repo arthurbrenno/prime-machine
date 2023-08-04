@@ -4,9 +4,8 @@
 
 <p id="description">Fast algorithm for marking prime number in a given range.</p>
 
-<h2>Project Screenshots:</h2>
 
-<img src="https://cdn.discordapp.com/attachments/815753127537410102/1111673572176449596/image.png" alt="project-screenshot" width="400" height="400/">
+<img src="https://i.redd.it/t5dyvoxnzoi61.png">
 
   
   
@@ -14,9 +13,9 @@
 
 Here're some of the project's best features:
 
-*   Sieve of Eratosthenes
-*   Bitset
-*   Memory efficient booleans
+*   Segmented Sieve of Eratosthenes
+*   Memory efficient booleans (std::vector<bool>)
+*   C-style algorithm
 
 <h2>🛡️ License:</h2>
 
